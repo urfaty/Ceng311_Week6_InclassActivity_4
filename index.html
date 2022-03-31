@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="activity4.css">
+</head>
+
+<body>
+
+    <h1>Registration Form</h1>
+    <form action="deneme.php" method="get">
+        <label for="name">Name: </label>
+        <input type="text" name="name" /><br /><br />
+
+
+        <label for="name">Username: </label>
+        <input type="text" name="username" /><br /><br />
+
+
+        <label for="name">Password: </label>
+        <input type="password" name="password" /><br /><br />
+
+
+        <label for="name">Adress: </label>
+        <input type="text" name="adress" /><br /><br />
+
+
+        <label for="country">Country:</label>
+        <select name="country">
+            <option value="" selected disabled hidden>(Please select a country) </option>
+            <option value="turkey">Turkey</option>
+            <option value="america">America</option>
+            <option value="france">France</option>
+            <option value="england">England</option>
+            <option value="egypt">Egypt</option>
+        </select><br /><br />
+
+        <label for="name">ZIP Code: </label>
+        <input type="text" name="zipcode" /><br /><br />
+
+
+        <label for="name">Email: </label>
+        <input type="text" name="email" /><br /><br />
+
+
+        <label>Sex: </label>
+        <input type="radio" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="Female">
+        <label for="female">Female</label><br><br />
+
+
+        <label>Language: </label>
+        <input type="checkbox" name="english" value="English">
+        <label for="english">English</label>
+        <input type="checkbox" name="french" value="French">
+        <label for="french">French</label>
+        <input type="checkbox" name="germany" value="Germany">
+        <label for="germany">Germany</label><br><br />
+
+
+        <label>About:</label>
+        <textarea name="about"></textarea>
+        <br>
+        <br>
+
+        <input id="submit1" type="submit" value="Submit"/>
+    </form>
+</body>
+
+</html>
